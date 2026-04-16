@@ -1,8 +1,11 @@
 <%@page language="java" %>
 
 <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
     <body>
-        <h2>Hello World!!!</h2>
+        <h2>Dilusha Calculator</h2>
         <form action="add">
             <label for="num1">Enter 1st Number: </label>
             <input type="text" id="num1" name="num1"><br>
