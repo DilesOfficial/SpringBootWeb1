@@ -2,9 +2,10 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h2>Results is : ${result} </h2>
+        <h2>Welcome to Alien</h2>
+        <p> ${alien} </p>
     </body>
 </html>
