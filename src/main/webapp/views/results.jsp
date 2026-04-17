@@ -7,5 +7,6 @@
     <body>
         <h2>Welcome to Alien</h2>
         <p> ${alien} </p>
+        <p>Welcome to ${course} World</p>
     </body>
 </html>
