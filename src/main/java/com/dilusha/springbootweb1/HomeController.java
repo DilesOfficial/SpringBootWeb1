@@ -20,7 +20,20 @@ public class HomeController {
         int result = num1 + num2;
 
         mv.addObject("result", result);
-        mv.setViewName("result");
+        mv.setViewName("results");
+
+        return mv;
+    }
+
+    @RequestMapping("addAlien")
+    public ModelAndView addAlien(@RequestParam("aid") int aid, @RequestParam("aname") String aname, ModelAndView mv) {
+
+        Alien alien = new Alien();
+        alien.setAid(aid);
+        alien.setAname(aname);
+
+        mv.addObject("alien", alien);
+        mv.setViewName("results");
 
         return mv;
     }
