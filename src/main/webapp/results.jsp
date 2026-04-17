@@ -5,6 +5,6 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h2>Results of Calculation</h2>
+        <h2>Results is : ${result} </h2>
     </body>
 </html>
